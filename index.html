@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<meta name="flexible" content="initial-dpr=2" />
+	<title>jQuery幸运大转盘抽奖活动代码</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="css/wheel.css"/>
+</head>
+<body>
+	<div class="bgwrap"></div>
+	<div class="wheel-title"><img src="img/title.png"/></div>
+    <div class="turntable-bg">
+        <div class="pointer"><img src="img/pointer.png" alt="pointer"/></div>
+        <div class="rotate" ><img id="rotate" src="img/turntable.png" alt="turntable"/></div>
+    </div>
+    <div class="actrule">
+    	<p>活动规则：</p>
+    	<p>1、每天可免费获取一次转盘次数。</p>
+    	<p>2、每日首次分享可获得1次免费次数。</p>
+    	<p>3、单笔充值100元以上可获得1次免费次数。</p>
+    	<p>4、游戏次数在每日24点进行设置，获奖用户将自动发送至个人中心。</p>
+    </div>
+    <p class="footp">本活动和苹果公司无关</p>
+    <div class="btns">
+    	<span class="btnone">免费再玩一次</span>
+    	<span class="btntwo">充值100元再玩一次</span>
+    </div>
+    <div class="face">
+    	<div class="facemain">
+    		<div class="happy"><img src="img/happy.png" class="happyimg"/></div>
+    		<p class="tip"></p>
+    		<div class="sure">确定</div>
+    	</div>
+    </div>
+</body>
+<script src="js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="js/awardRotate.js"></script>
+<script src="js/adapt.js" type="text/javascript" charset="utf-8"></script>
+<!--<script src="js/flexible.js" type="text/javascript" charset="utf-8"></script>-->
+<script src="lib/layer/layer.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+</html>

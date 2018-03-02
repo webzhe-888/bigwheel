@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>页面分享</title>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/wheel.css"/>
+	</head>
+	<body class="sharebg"> 
+		<img src="../img/sharebg.png" class="sharebgimg"/>
+		<p class="shareone">八戒夺宝，惊喜从天而降</p>
+		<p class="sharetwo">快来领取！</p>
+		<div class="getwrap">
+			<div class="gettreasure">立即夺宝</div>
+		</div>
+	</body>
+	<script src="../js/adapt.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+	$(function(){
+		$('.gettreasure').on("click",function(){
+			location.href = '';
+		})
+	})
+	</script>
+</html>
